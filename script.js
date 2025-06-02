@@ -1,6 +1,6 @@
 // your code here
-document.getElementById('form').addEventListener('submit', function(event) {
-            event.preventDefault();
+document.getElementById('form').addEventListener('submit', function(e) {
+            e.preventDefault();
             
             const name = document.getElementById('name').value.trim();
             const year = document.getElementById('year').value.trim();
